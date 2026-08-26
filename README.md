@@ -3,7 +3,7 @@
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-844FBA?logo=terraform)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws)](https://aws.amazon.com/)
 [![Security](https://img.shields.io/badge/Focus-Security%20%26%20Compliance-critical)]()
-[![Status](https://img.shields.io/badge/status-en%20cours-yellow)]()
+
 
 ## Objectif du projet
 
