@@ -87,8 +87,7 @@ terraform plan -out=tfplan
 terraform apply tfplan
 ```
 
-> ⚠️ GuardDuty et Security Hub sont facturés à l'usage. Faites `terraform destroy`
-> après démonstration/capture d'écran.
+> ⚠️ GuardDuty et Security Hub sont facturés à l'usage.
 
 ## Points techniques abordés
 
@@ -113,7 +112,7 @@ concrètes du projet réalisé.)*
 - [ ] Ajouter AWS Shield Advanced pour la protection DDoS
 - [ ] Écrire des tests de conformité avec `checkov` ou `tfsec` en CI
 
-## 👤 Auteur
+## Auteur
 
 **Ahmed Bakir** — Étudiant Ingénieur Réseaux & Cloud (EPSI Lyon / ENIG)
 [LinkedIn](https://linkedin.com/in/ahmed-bk) · [GitHub](https://github.com/BakirAhmed)
