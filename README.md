@@ -1,18 +1,18 @@
-# 🛡️ Architecture Sécurisée Multi-Tier — Defense in Depth (AWS)
+# Architecture Sécurisée Multi-Tier — Defense in Depth (AWS)
 
 [![Terraform](https://img.shields.io/badge/IaC-Terraform-844FBA?logo=terraform)](https://www.terraform.io/)
 [![AWS](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws)](https://aws.amazon.com/)
 [![Security](https://img.shields.io/badge/Focus-Security%20%26%20Compliance-critical)]()
 [![Status](https://img.shields.io/badge/status-en%20cours-yellow)]()
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Concevoir une architecture **3 tiers (web / app / data)** appliquant le principe de
 **défense en profondeur** : chiffrement systématique, gestion centralisée des secrets,
 détection de menaces, conformité continue (CIS, PCI DSS) et remédiation automatique.
 Ce projet couvre le pilier **Sécurité** du AWS Well-Architected Framework.
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TB
@@ -62,7 +62,7 @@ flowchart TB
 | **AWS WAF** | Protection du tier web contre les attaques OWASP Top 10 |
 | **IAM / SCP** | Politiques de moindre privilège, garde-fous au niveau organisation |
 
-## 📁 Structure du dépôt
+## Structure du dépôt
 
 ```
 .
@@ -76,7 +76,7 @@ flowchart TB
 └── README.md
 ```
 
-## 🚀 Déploiement
+## Déploiement
 
 ```bash
 git clone https://github.com/BakirAhmed/secure-multi-tier-defense-in-depth.git
@@ -90,7 +90,7 @@ terraform apply tfplan
 > ⚠️ GuardDuty et Security Hub sont facturés à l'usage. Faites `terraform destroy`
 > après démonstration/capture d'écran.
 
-## 🧠 Points techniques abordés
+## Points techniques abordés
 
 - Segmentation réseau **3 tiers** avec Security Groups en cascade (web → app → data)
 - Chiffrement **at-rest** (KMS CMK) et **in-transit** (TLS/WAF en amont)
@@ -100,13 +100,13 @@ terraform apply tfplan
 - Remédiation automatisée avec **AWS Config Rules**
 - Politiques IAM de moindre privilège (exemple : refus d'upload S3 non chiffré)
 
-## 📸 Preuves de déploiement
+## Preuves de déploiement
 
 *(Ajoutez ici des captures d'écran de la console : Security Hub score de conformité,
 GuardDuty findings, RDS chiffré, WAF metrics — pour donner des preuves visuelles
 concrètes du projet réalisé.)*
 
-## 🔮 Améliorations futures
+## Améliorations futures
 
 - [ ] Ajouter Service Control Policies (SCP) au niveau AWS Organizations
 - [ ] Automatiser la remédiation via EventBridge + Lambda (findings Security Hub)
