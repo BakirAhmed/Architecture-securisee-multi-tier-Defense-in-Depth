@@ -100,11 +100,7 @@ terraform apply tfplan
 - Remédiation automatisée avec **AWS Config Rules**
 - Politiques IAM de moindre privilège (exemple : refus d'upload S3 non chiffré)
 
-## Preuves de déploiement
 
-*(Ajoutez ici des captures d'écran de la console : Security Hub score de conformité,
-GuardDuty findings, RDS chiffré, WAF metrics — pour donner des preuves visuelles
-concrètes du projet réalisé.)*
 
 ## Améliorations futures
 
